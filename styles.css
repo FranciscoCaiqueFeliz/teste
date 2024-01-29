@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url(./img/pexels-cátia-matos-1072179.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: green;
+  }
+
+  .perfil {
+    width: 150px;
+    height: 167px;
+    border-radius: 50%;
+    border: 5px solid green;
+  }
+  .certificado {
+    width: 600px;
+    height: 400px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  
+  .centralizar{
+    padding-top: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  
+  /* Estilos específicos para cada página */
+  /* Sobre Mim */
+  main.sobre {
+    background-color: #f9f9f9;
+    padding: 100px;
+  }
+  
+  /* Formação */
+  main.formacao {
+    background-color: #e6e6e6;
+    padding: 40px;
+  }
+  
+  /* Portfólio */
+  main.portfolio {
+    background-color: #f9f9f9;
+    padding: 400px;
+  }
+  
+  /* Contato */
+  main.contato {
+    background-color: #e6e6e6;
+    padding: 40px;
+  }
+  
+  /* Estilos para formulário de contato */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form textarea {
+    height: 120px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background-color: #333;
+  }
